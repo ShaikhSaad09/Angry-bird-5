@@ -43,6 +43,9 @@ class SlingShot{
             
             pop();
         }
+
     }
-    
+    attach(bird){
+     this.sling.bodyA=bird;
+    }
 }
